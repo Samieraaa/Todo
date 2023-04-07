@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #403b4a,
+  #e7e9bb );
+  
+  color: white;
+
+}
+
+.Container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.todoForm {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+ 
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;   
+  margin-top: 6px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 2px;
+}
+.allTodos {
+  list-style: none;
+  margin: 0 ;
+  padding: 0;
+}
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: #DDDDDD ;
+  padding: 10px 20px ;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+  color:black
+
+}
+.todoText{
+  flex: 1;
+}
+.editBtn {
+  background-color:#39CCCC ;
+  margin: 0 3px;
+  
+}
+.delBtn {
+  background-color: #FF4136 ;
+}
+.todoBtn {
+  background-color: #01FF70 ;
+  margin-right: 20px ;
+}
